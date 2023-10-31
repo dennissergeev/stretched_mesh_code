@@ -1,0 +1,47 @@
+name: lfric_ana
+channels:
+  - conda-forge
+dependencies:
+  - python =3.11
+
+  - setuptools >=40.8.0
+
+  - cartopy >=0.20
+  - cf-units >=3
+  - cftime >=1.5
+  - dask >=2
+  - matplotlib >=3.8
+  - netcdf4
+  - numpy
+  - python-xxhash
+  - scipy
+
+  # - aeolus
+  - click
+  - cmcrameri
+  - cmocean
+  - esmpy >=7.0
+  - ffmpeg
+  - graphviz
+  - imageio
+  - imageio-ffmpeg
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - iris >=3.7
+  - iris-esmf-regrid >=0.8
+  - meshio 
+  - mo_pack
+  - pandas
+  - pip
+  - python-stratify
+  - tqdm
+
+# aeolus dependencies
+  - f90nml
+  - cached-property
+  - latlon23
+
+#PyPI
+  - pip:
+    - swiftascmaps

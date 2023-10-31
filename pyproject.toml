@@ -1,0 +1,42 @@
+[tool.black]
+line-length = 79
+target-version = ["py311"]
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+[tool.ruff]
+ignore = ["B023", "B904", "D401"]
+line-length = 79
+select = [
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "I",   # isort
+    "E",   # pycodestyle
+    "W",
+    "D",   # pydocstyle
+    "F",   # pyflakes
+    "UP",  # pyupgrade
+]
+target-version = "py39"
+
+
+[tool.ruff.isort]
+force-sort-within-sections = true
+
+
+[tool.ruff.pydocstyle]
+convention = "numpy"
