@@ -2,7 +2,7 @@
 SIMULATIONS = {
     "c192": {
         "title": "C192",
-        "long_name": "thai_hab1_c192s10",  # change
+        "long_name": "thai_hab1_c192",
         "planet": "hab1",
         "kw_plt": {"color": "C0"},
         "timestep": 300,
