@@ -28,5 +28,5 @@ data_raw = data / "raw"
 data_proc = data / "proc"
 
 # Vertical levels
-# vert = data / "vert"
-vert = data_final / "vert"
+vert = data / "vert"
+# vert = data_final / "vert"
