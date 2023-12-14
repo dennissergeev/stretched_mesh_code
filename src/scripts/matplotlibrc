@@ -13,7 +13,7 @@ font.size       : 6.0
 # ytick.labelsize : 12
 
 figure.figsize   : 7, 3.5   # figure size in inches
-figure.dpi       : 150      # figure dots per inch
+figure.dpi       : 200      # figure dots per inch
 figure.facecolor : (1, 1, 1, 1)
 # the default savefig params can be different from the display params
 # e.g., you may want a higher resolution, or to make the figure
