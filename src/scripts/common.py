@@ -28,7 +28,7 @@ SIMULATIONS = {
         days_per_job=5,
         stretch_factor=10,
         vert_lev="L63_50t_13s_40km",
-        kw_plt={"color": "C0", "marker": "h"},
+        kw_plt={"color": "#E24A33", "marker": "h"},
     ),
     "c192s10r": Simulation(
         title="C192s10r",
@@ -38,7 +38,7 @@ SIMULATIONS = {
         days_per_job=5,
         stretch_factor=10,
         vert_lev="L63_50t_13s_40km",
-        kw_plt={"color": "C1", "marker": "p"},
+        kw_plt={"color": "#348ABD", "marker": "p"},
     ),
     "c192s10p": Simulation(
         title="C192s10p",
@@ -48,7 +48,7 @@ SIMULATIONS = {
         days_per_job=5,
         stretch_factor=10,
         vert_lev="L63_50t_13s_40km",
-        kw_plt={"color": "C2", "marker": "s"},
+        kw_plt={"color": "#988ED5", "marker": "s"},
     ),
     "c192p": Simulation(
         title="C192p",
@@ -58,7 +58,7 @@ SIMULATIONS = {
         days_per_job=10,
         stretch_factor=1,
         vert_lev="L63_50t_13s_40km",
-        kw_plt={"color": "C3", "marker": "o"},
+        kw_plt={"color": "#777777", "marker": "o"},
     ),
 }
 
