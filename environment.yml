@@ -1,47 +1,43 @@
-name: lfric_ana
+name: stretched_mesh_env
 channels:
   - conda-forge
 dependencies:
-  - python =3.11
+  - python =3.12
 
-  - setuptools >=40.8.0
-
-  - cartopy >=0.20
-  - cf-units >=3
-  - cftime >=1.5
-  - dask >=2
-  - matplotlib >=3.8
-  - netcdf4
-  - numpy
-  - python-xxhash
-  - scipy
-
-  # - aeolus
+  - aeolus
+  - black
+  - cartopy
+  - cf-units
+  - cftime
   - click
   - cmcrameri
   - cmocean
-  - esmpy >=7.0
+  - dask
+  - esmpy <=8.6
   - ffmpeg
-  - graphviz
+  - geovista
   - imageio
   - imageio-ffmpeg
   - ipykernel
   - ipython
   - ipywidgets
   - iris >=3.7
-  - iris-esmf-regrid >=0.8
-  - meshio 
-  - mo_pack
+  - iris-esmf-regrid >=0.9
+  - isort
+  - matplotlib >=3.8
+  - meshio
+  - netcdf4
+  - numpy
   - pandas
+  - pre-commit
+  - pyvista
   - pip
   - python-stratify
+  - ruff
+  - scipy
+  - trame
   - tqdm
 
-# aeolus dependencies
-  - f90nml
-  - cached-property
-  - latlon23
-
-#PyPI
+# PyPI
   - pip:
     - swiftascmaps
