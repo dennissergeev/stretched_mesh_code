@@ -4,6 +4,7 @@ repos:
     hooks:
       # Prevent giant files from being committed.
     - id: check-added-large-files
+      args: ['--maxkb=100000']
       # Check whether files parse as valid Python.
     - id: check-ast
       # Check for file name conflicts on case-insensitive file-systems.
