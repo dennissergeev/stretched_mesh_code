@@ -30,6 +30,7 @@ The final regridded and time mean data are in the `src/data/` directory.
 |:---:|:-------|:---------|
 |  1  | [Summary of the simulation setup](src/figures/regr__hab1_mod_c192_s10e_s10r_s10p_p__cell_width__c12_mesh__summary.pdf) | [Show-Mesh-And-Cell-Sizes.ipynb](https://nbviewer.jupyter.org/github/dennissergeev/stretched_mesh_code/blob/main/src/scripts/Show-Mesh-And-Cell-Sizes.ipynb) |
 |  2  | [Clouds and precipitation in the simulations with stretched and quasi-uniform mesh](src/figures/combi_hab1_mod_c192_s10e_s10r_s10p_p__inst_diag__tot_col_m_c_tot_prec__grat__precip_sum_hist__cloud_types.pdf) | [Cloud-Precip-Snap-Hist.ipynb](https://nbviewer.jupyter.org/github/dennissergeev/stretched_mesh_code/blob/main/src/scripts/Cloud-Precip-Snap-Hist.ipynb) |
+|  3  | [Meridional and time mean profiles of vertically integrated moisture diagnostics](src/figures/regr__hab1_mod_c192_s10e_s10r_s10p_p__tot_col_m_v_tot_col_m_c_tot_col_m_cl_tot_col_m_ci__tmm.pdf) | [Meridional-Mean-Cloud-Profiles.ipynb](https://nbviewer.jupyter.org/github/dennissergeev/stretched_mesh_code/blob/main/src/scripts/Meridional-Mean-Cloud-Profiles.ipynb) |
 
 <h2 align="center">How to reproduce figures</h2>
 
