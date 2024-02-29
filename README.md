@@ -24,7 +24,6 @@ The impact of the explicit representation of convection on the climate of a tida
 <h2 align="center">Repository contents</h2>
 
 Notebooks and Python scripts are in the [`src/scripts/` directory](src/scripts/), while the figures themselves are in the `src/figures/` directory.
-The final regridded and time mean data are in the `src/data/` directory.
 
 |  #  | Figure | Notebook |
 |:---:|:-------|:---------|
@@ -34,6 +33,7 @@ The final regridded and time mean data are in the `src/data/` directory.
 |  4  | [Vertical profiles of time mean diagnostics in the substellar region](src/figures/regr__hab1_mod_c192_s10e_s10r_s10p_p__tot_col_m_v_tot_col_m_c_tot_col_m_cl_tot_col_m_ci__tmm.pdf) | [Substellar-Vertical-Profiles.ipynb](https://nbviewer.jupyter.org/github/dennissergeev/stretched_mesh_code/blob/main/src/scripts/Substellar-Vertical-Profiles.ipynb) |
 |  5  | [Thermodynamic and circulation regime](src/figures/regr__hab1_mod_c192_s10e_s10r_s10p_p__t_sfc_toa_olr_u_zm__w_zm_day__tm_map.pdf) | [Thermodynamic-And-Circulation-Regime.ipynb](https://nbviewer.jupyter.org/github/dennissergeev/stretched_mesh_code/blob/main/src/scripts/Thermodynamic-And-Circulation-Regime.ipynb) |
 |  6  | [Maps of precipitation rate](src/figures/regr__hab1_mod_c192_s10e_s10r_s10p_p__tot_prec_ls_prec_conv_prec__tm_map.pdf) | [Precipitation-Maps.ipynb](https://nbviewer.jupyter.org/github/dennissergeev/stretched_mesh_code/blob/main/src/scripts/Precipitation-Maps.ipynb) |
+|  7  | [Circulation regime bistability](src/figures/thai_hab1__c192_s10e_s10r_s10p_p__inst_diag__toa_osr__t_sfc__wind_08160m.pdf) | [Show-Bistability.ipynb](https://nbviewer.jupyter.org/github/dennissergeev/stretched_mesh_code/blob/main/src/scripts/Show-Bistability.ipynb) |
 
 
 <h2 align="center">How to reproduce figures</h2>
