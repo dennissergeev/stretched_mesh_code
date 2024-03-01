@@ -7,8 +7,8 @@
 The impact of the explicit representation of convection on the climate of a tidally locked planet in global stretched-mesh simulations.
 </h1>
 <p align="center">
-<a href="https://arxiv.org/abs/2402">
-<img src="https://img.shields.io/badge/arXiv-2402-red"
+<a href="https://arxiv.org/abs/2402.19277">
+<img src="https://img.shields.io/badge/arXiv-2402.19277-red"
      alt="Preprint"></a>
 </p>
 <p align="center">
