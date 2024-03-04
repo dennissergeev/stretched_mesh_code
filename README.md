@@ -52,7 +52,7 @@ mamba install -c conda-forge jupyterlab nb_conda_kernels
 ```bash
 cd /path/to/downloaded/repository
 ```
-5. Create a separate conda environment (it will be called `lfric_ana`).
+5. Create a separate conda environment.
 ```
 mamba env create --file environment.yml
 ```
