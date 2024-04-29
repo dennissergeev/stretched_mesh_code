@@ -1,9 +1,7 @@
 """Common objects stretched_mesh_proj."""
 from dataclasses import dataclass, field
-import os
 
 from aeolus.const import init_const
-from aeolus.meta import update_metadata
 from aeolus.model import lfric
 from aeolus.region import Region
 from aeolus.subset import DimConstr
@@ -79,12 +77,6 @@ SIMULATIONS = {
 }
 
 
-def all_sim_file_label(sims):
-    """Make a shorter label for a list of labels with a common prefix."""
-    pref = os.path.commonprefix(sims)
-    return f"{pref}_{'_'.join([i.removeprefix(pref) for i in sims])}"
-
-
 N_RES = 512  # lat/lon resolution for regridding
 SPINUP_DAYS = 500
 DAYSIDE = Region(-90, 90, -90, 90, name="dayside", model=lfric)
@@ -99,18 +91,6 @@ KW_ZERO_LINE = {
     "linestyle": "dashed",
     "dash_capstyle": "round",
 }
-
-
-# TODO: move to aeolus
-@update_metadata(name="total_precipitation_rate", units="mm day-1")
-def lfric_precip_sum(dset, const=CONST):
-    """Calculate total precipitation."""
-    ls_p = dset.extract_cube("ls_prec")
-    ls_p = ls_p.copy(data=ls_p.data.filled(fill_value=0))
-    cv_p = dset.extract_cube("conv_prec")
-    cv_p = cv_p.copy(data=cv_p.data.filled(fill_value=0))
-    p_sum = (ls_p + cv_p) / const.condensible_density
-    return p_sum
 
 
 SIMULATIONS_OLD = {
