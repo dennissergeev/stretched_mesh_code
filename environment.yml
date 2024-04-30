@@ -13,7 +13,7 @@ dependencies:
   - cmcrameri
   - cmocean
   - dask
-  - esmpy <=8.6
+  - esmpy
   - ffmpeg
   - geovista
   - imageio
@@ -21,7 +21,7 @@ dependencies:
   - ipykernel
   - ipython
   - ipywidgets
-  - iris >=3.7
+  - iris >=3.9
   - iris-esmf-regrid >=0.9
   - isort
   - matplotlib >=3.8

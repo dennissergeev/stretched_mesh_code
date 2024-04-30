@@ -45,16 +45,16 @@ To recreate the required environment for running Python code, follow these steps
 1. Install conda or mamba, e.g. using [miniforge](https://github.com/conda-forge/miniforge).
 2. Install necessary packages to the `base` environment. Make sure you are installing them from the `conda-forge` channel.
 ```bash
-mamba install -c conda-forge jupyterlab nb_conda_kernels
+mamba install -c conda-forge jupyterlab nb_conda_kernels conda-lock
 ```
 3. Git-clone or download this repository to your computer.
 4. In the command line, navigate to the downloaded folder, e.g.
 ```bash
 cd /path/to/downloaded/repository
 ```
-5. Create a separate conda environment.
+5. Create a conda environment from the lock file.
 ```
-mamba env create --file environment.yml
+conda-lock install --name stretched_mesh_env conda-lock.yml
 ```
 
 <h3 align="center">Open the code</h3>
@@ -63,11 +63,33 @@ mamba env create --file environment.yml
 ```bash
 jupyter lab
 ```
-2. Open notebooks within the `lfric_ana` environment start running the code.
-
+2. Open notebooks in the `stretched_mesh_env` environment start running the code.
 
 <h2 align="center">
-System information and key python libraries
+System information
 </h2>
 
-TODO
+--------------------------------------------------------------------------------
+  Date: Tue Apr 30 11:43:52 2024 BST
+
+                OS : Linux
+            CPU(s) : 56
+           Machine : x86_64
+      Architecture : 64bit
+               RAM : 502.6 GiB
+       Environment : Python
+       File system : ext4
+
+  Python 3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:38:13) [GCC
+  12.3.0]
+
+             numpy : 1.26.4
+             scipy : 1.13.0
+           IPython : 8.22.2
+        matplotlib : 3.8.4
+            scooby : 0.9.2
+--------------------------------------------------------------------------------
+
+```bash
+python -c 'import scooby; print(scooby.Report())'
+```
