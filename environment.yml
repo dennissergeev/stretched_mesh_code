@@ -13,7 +13,7 @@ dependencies:
   - cmcrameri
   - cmocean
   - dask
-  - esmpy
+  - esmpy =8.4
   - ffmpeg
   - geovista
   - imageio
