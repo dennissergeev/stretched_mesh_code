@@ -23,7 +23,7 @@ The impact of the explicit representation of convection on the climate of a tida
 
 <h2 align="center">Repository contents</h2>
 
-Notebooks and Python scripts are in the [`src/scripts/` directory](src/scripts/), while the figures themselves are in the `src/figures/` directory.
+Notebooks and Python scripts are in the [`src/scripts/`](src/scripts/) directory, while the figures themselves are in the [`src/figures/`](src/figures/) directory.
 
 |  #  | Figure | Notebook |
 |:---:|:-------|:---------|
