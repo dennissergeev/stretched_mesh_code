@@ -8,7 +8,7 @@ The impact of the explicit representation of convection on the climate of a tida
 </h1>
 <p align="center">
 <a href="https://doi.org/10.3847/1538-4357/ad4ecd">
-<img src="https://img.shields.io/badge/DOI-10.3847%2F1538-4357%2Fad4ecd-purple"
+<img src="https://img.shields.io/badge/DOI-10.3847%2F1538--4357%2Fad4ecd-purple"
      alt="Published in The Astrophysical Journal"></a>
 <a href="https://arxiv.org/abs/2402.19277">
 <img src="https://img.shields.io/badge/arXiv-2402.19277-red"
