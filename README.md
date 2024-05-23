@@ -7,14 +7,18 @@
 The impact of the explicit representation of convection on the climate of a tidally locked planet in global stretched-mesh simulations.
 </h1>
 <p align="center">
+<a href="https://doi.org/10.3847/1538-4357/ad4ecd">
+<img src="https://img.shields.io/badge/DOI-10.3847%2FApJ%2Fad4ecd-purple"
+     alt="Published in The Astrophysical Journal"></a>
 <a href="https://arxiv.org/abs/2402.19277">
 <img src="https://img.shields.io/badge/arXiv-2402.19277-red"
-     alt="Preprint"></a>
-</p>
-<p align="center">
-<a href="https://www.python.org/downloads/">
+     alt="arXiv preprint"></a>
+<a href="conda-lock.yml">
 <img src="https://img.shields.io/badge/python-3.12-blue.svg"
      alt="Python 3.12"></a>
+<a href="LICENSE">
+<img src="https://img.shields.io/badge/License-MIT-green.svg"
+     alt="License: MIT"></a>
 <a href="https://github.com/psf/black">
 <img src="https://img.shields.io/badge/code%20style-black-000000.svg"
      alt="black"></a>
